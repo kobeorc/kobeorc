@@ -1,49 +1,58 @@
 @extends('app')
-@include('myproject')
-
 
 @section('header')
-	<div class="header">
-		<img src="/theme/logo.png" class="logo" />
-	</div>
+<div class="  header">
+   <a href="http://kobeorc.com/"><img class="logo" src="/theme/logo.png"></a>
+</div>
 @endsection
+
+
+
 
 @section('content')
- <div class="content">
-  <div class="left_side">
-    <h2>Me</h2>
-
-    <div class="person">
-      <p><img class="picture" src="/theme/picture.png"/></p>
-      <p class="simple_text">Name: Meshkov Dmitry</p>
-      <p class="simple_text">Born: july 1991(age 23)</p>
-      <h3>Contacts</h3>
-      <p class="skype"><img  src="/theme/icons/skype-icon.png" /> kobe_orc</p>
-      <ul class="social_network">
-        <li><a href=""><img src="/theme/icons/vk-icon.png" /></a></li>
-        <li><a href=""><img src="/theme/icons/facebook-icon.png" /></a></li>
-        <li><a href=""><img src="/theme/icons/twitter-icon.png" /></a></li>
-        <li><a href=""><img src="/theme/icons/google-icon.png" /></a></li>
-      </ul>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-5">
+      <h1 class="text-center">Me</h1>
+      <div class="container-fluid">
+        <p class="text-center"><img class="picture" src="/theme/picture.png" /></p>
+        <h3>Name: Meshkov Dmitry</h3>
+        <h3>Born: july 1991(age )</h3>
+        <h2 class="text-center"><strong>Contacts</strong></h2>
+        <p class="text-center"><img width=30px src="/theme/icons/skype-icon.png" /><span>kobe_orc</span></p>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="https://vk.com/kobeorc"><img class="img-responsive" src="/theme/icons/vk-icon.png" /></a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://www.facebook.com/profile.php?id=100001648843184"><img class="img-responsive" src="/theme/icons/facebook-icon.png" /></a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://twitter.com/kobeorc"><img class="img-responsive" src="/theme/icons/twitter-icon.png" /></a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://plus.google.com/u/0/110946708756852717793/posts"><img class="img-responsive" src="/theme/icons/google-icon.png" /></a>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="col-md-offset-2 col-md-5">
+    <h1 class="text-center">My Projects</h1>
+      <div class="row container-fluid text-center ">
+        <div class="col-md-6"><a class="custom_link" target="_blank" href="http://ugpik.ru"><h4>Ugpik.ru</h3><img src="/theme/ugpik_preview.png" /></a></div>
+        <div class="col-md-6"><a class="custom_link" target="_blank" href="http://techeco-ug.ru"><h4>Techeco-ug.ru</h4><img src="/theme/techeco-ug_preview.png" /></a></div>
+        <div class="col-md-6"><a class="custom_link" target="_blank" href="http://diplomat-ug.ru"><h4>Diplomat-ug.ru</h4><img src="/theme/diplomat-ug_preview.png" /></a></div>
+      </div>
   </div>
-  <div class="right_side">
-    <h2>My Projects</h2>
-    <div class="project">
-      <ul>
-        <li><a target="_blank" href="#"><p class="link">Ugpik.ru</p><img src="/theme/ugpik_preview.png" /></a></li>
-        <li><a target="_blank" href="#"><p class="link">Techeco-ug.ru</p><img src="/theme/techeco-ug_preview.png" /></a></li>
-        <li><a target="_blank" href="#"><p class="link">Diplomat-ug.ru</p><img src="/theme/diplomat-ug_preview.png" /></a></li>
-      </ul>
-    </div>
-  </div>
-  
 </div>
-
 @endsection
 
+
+
+
+
 @section('footer')
-	<div class="footer">
-	    <img src="/theme/direction.png" />
-	</div>
+<div class="text-center">
+    <img class="road_work" src="/theme/road_work.png" />
+</div>
 @endsection
