@@ -3,7 +3,7 @@
 
 @section('header')
 	<div class="container_fluid header">
-		<img src="/theme/logo.png" class="logo" />
+		<a href="http://kobeorc.com"> <img src="/theme/logo.png" class="logo" /></a>
 	</div>
 @endsection
 
