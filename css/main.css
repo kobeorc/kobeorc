@@ -1,0 +1,44 @@
+
+body{
+	background: url("../theme/rail.png") repeat-y 50%,url("../theme/background.png") repeat;
+	background-size: 50px, 60px;
+	font-family: Trebuchet MS, Verdana, Arial,  serif;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.header{
+	background: #000;
+	height: 50px;
+}
+
+.logo{
+	position: absolute;
+	z-index: 1000;
+	width:80px;
+	top:10px;
+	left: 50%;
+	margin-left: -40px;
+}
+
+.picture{
+	width: 20%;
+	min-width: 200px;
+}
+
+.custom_skype{
+	width: 30px;
+}
+
+.custom_content{
+	margin-top: 20px;
+}
+
+.custom_link:hover{
+	color:#ccc;
+}
+
+.road_work{
+	width: 130px;
+	margin-left: -20%;
+}
