@@ -207,10 +207,10 @@ function makename($type){
             <br/>
             <form action="" method="post" enctype="multipart/form-data">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-xs-5">
                         <input class="btn btn-default" type="file" name="photos[]" multiple/>
                     </div>
-                    <div class="col-md-5 col-md-offset-2">
+                    <div class="col-xs-5 col-md-offset-2">
                         <input class="btn btn-lg btn-default" type="submit" />
                     </div>
                 </div>
