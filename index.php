@@ -1,7 +1,9 @@
 <?php 
 
 //random staff
-
+$date = new DateTime('1991-07-01');
+$now = new DateTime('now');
+$age = $date->diff($now)->format('%Y');
 ?>
 
 
@@ -25,7 +27,7 @@
     <div class="container-fluid">
       <p class="text-center"><img class="picture" src="theme/picture.png"/></p>
       <h3>Name: Meshkov Dmitry</h3>
-      <h3>Born: july 1991(age 23)</h3>
+      <h3>Born: july 1991(age <?=$age?>)</h3>
       <h2 class="text-center">Contacts</h2>
       <p class="text-center"><img class="custom_skype" src="theme/icons/skype-icon.png" /><i> kobe_orc</i></p>
       <div class="row">
